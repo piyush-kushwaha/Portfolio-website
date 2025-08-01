@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Kushwaha | Portfolio</title>
+    <style>
+        body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #111112;
+    color: #e0ffe6;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+header {
+    background: #18181a;
+    color: #fff;
+    padding-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    border-radius: 0 0 24px 24px;
+}
+
+nav {
+    background: transparent;
+    padding: 1rem 0;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+nav a {
+    color: #00ff99;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s, background 0.2s, box-shadow 0.2s;
+    padding: 0.4rem 1.2rem;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+nav a:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #00ff99 0%, #00c853 100%);
+    box-shadow: 0 2px 12px 0 rgba(0,255,153,0.15);
+}
+
+header section {
+    text-align: center;
+    margin-top: 2rem;
+}
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #fff;
+    background: linear-gradient(90deg, #00ff99 0%, #00c853 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+header h3 {
+    font-weight: 400;
+    color: #00ff99;
+    margin-top: 0.5rem;
+}
+header p {
+    margin-top: 1rem;
+    color: #e0ffe6;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+section {
+    margin-bottom: 2.5rem;
+    background: #18181a;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    padding: 2rem 1.5rem;
+}
+section h2 {
+    color: #00ff99;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+#projects ul, #skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+#projects li, #skills li {
+    margin-bottom: 1rem;
+}
+#projects a {
+    color: #00ff99;
+    text-decoration: underline;
+    transition: color 0.2s, background 0.2s;
+    border-radius: 6px;
+    padding: 0.1rem 0.4rem;
+}
+#projects a:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #00ff99 0%, #00c853 100%);
+}
+
+#about p {
+    color: #e0ffe6;
+}
+
+footer {
+    background: #18181a;
+    color: #e0ffe6;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    border-radius: 10px 10px 0 0;
+    margin-top: 2rem;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.10);
+}
+footer a {
+    color: #00ff99;
+    text-decoration: none;
+    transition: color 0.2s, background 0.2s;
+    border-radius: 6px;
+    padding: 0.1rem 0.4rem;
+}
+footer a:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #00ff99 0%, #00c853 100%);
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    main {
+        padding: 0 0.5rem;
+    }
+    section {
+        padding: 1.2rem 0.5rem;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    section h2 {
+        font-size: 1.2rem;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul style="display: flex; gap: 2rem; list-style: none; padding: 0;">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section style="text-align: center; margin-top: 2rem;">
+            <h1><b>Piyush Kushwaha</b></h1>
+            <h3>B.Tech | Computer Science & Engineering</h3>
+            <p>Passionate about building impactful tech solutions.</p>
+        </section>
+    </header>
+    <main>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>Project-1:</strong> <a href="#">Personal Portfolio Website</a><br/>
+                    <span>My own responsive portfolio website built with HTML, CSS, and JavaScript.</span>
+                </li>
+                <li>
+                    <strong>Project-2:</strong> 
+                </li>
+                <li>
+                    <strong>Project-3:</strong> 
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>Python, C,Java(basics)</li>
+                
+                
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi! I'm <b>Piyush Kushwaha</b>, a passionate and curious B.Tech student specializing in Computer Science and Engineering.<br/>
+                I love learning new technologies and building projects that solve real-world problems.<br/>
+                I'm excited to grow alongside the ever-evolving world of tech and contribute to meaningful innovations.
+            </p>
+        </section>
+    </main>
+    <footer id="contact" style="margin-top: 2rem;">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:piyush888kushwaha@gmail.com">piyush888kushwaha@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/piyush-kushwaha-418ba0369?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com/in/piyushkushwaha</a></p>
+        
+        <p style="margin-top: 1rem;">&copy; 2025 Piyush Kushwaha. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
